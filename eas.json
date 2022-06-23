@@ -16,6 +16,8 @@
     "preview3": {
       "developmentClient": true
     },
-    "production": {}
+    "production": {
+      "releaseChannel": "production"
+    }
   }
 }
