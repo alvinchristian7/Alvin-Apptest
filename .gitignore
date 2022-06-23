@@ -8,7 +8,8 @@ npm-debug.*
 *.key
 *.mobileprovision
 *.orig.*
-web-build/
+# For deploying to Github Pages
+# web-build/
 
 # macOS
 .DS_Store
