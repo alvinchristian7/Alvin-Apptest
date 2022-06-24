@@ -7,7 +7,7 @@
     "web": "expo start --web",
     "eject": "expo eject",
     "test": "jest --watchAll",
-    "build:android": "eas build -p android --profile preview",
+    "build:android": "eas build -p android --profile development",
     "build:ios": "eas build -p ios --profile preview"
   },
   "jest": {
@@ -24,6 +24,7 @@
     "expo": "~45.0.0",
     "expo-asset": "~8.5.0",
     "expo-constants": "~13.1.1",
+    "expo-dev-client": "~1.0.0",
     "expo-font": "~10.1.0",
     "expo-linking": "~3.1.0",
     "expo-splash-screen": "~0.15.1",

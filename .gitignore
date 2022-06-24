@@ -9,7 +9,10 @@ npm-debug.*
 *.mobileprovision
 *.orig.*
 # For deploying to Github Pages
-# web-build/
+web-build/
+__tests__/
+package-lock.json
+yarn.lock
 
 # macOS
 .DS_Store
